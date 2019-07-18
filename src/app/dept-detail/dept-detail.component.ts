@@ -6,7 +6,7 @@ import {ActivatedRoute,Router,ParamMap} from '@angular/router';
     <h3>
     You selected department with id={{departmentId}}
     </h3>
-    <a (click)="goPrevious()">Previous</a>
+    <a (click)="goPrevious()">Previous</a>&nbsp;
     <a (click)="goNext()">Next</a>
   `,
   styles: []

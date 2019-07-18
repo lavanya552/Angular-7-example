@@ -10,7 +10,7 @@ import {Router} from '@angular/router';
       <li (click)="onSelect(department)" *ngFor="let department of departments">
         <span class="badge">{{department.id}}</span>{{department.name}}
       </li>
-    <ul>
+    </ul>
 
   `,
   styles: []
